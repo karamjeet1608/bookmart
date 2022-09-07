@@ -1,0 +1,15 @@
+bookmartBackend/flake8
+commands.txt
+bookmartBackend/Pipfile
+bookmartBackend/Pipfile.lock
+Things_to_do.txt
+git_commands.txt
+
+bookmartFrontend/bookmartui/node_modules
+bookmartFrontend/bookmartui//.pnp
+bookmartFrontend/bookmartui/.pnp.js
+bookmartFrontend/bookmartui//coverage
+bookmartFrontend/bookmartui//build
+
+bookmartFrontend/bookmartui/package-lock.json
+bookmartFrontend/bookmartui/package.json
