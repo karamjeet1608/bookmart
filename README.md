@@ -39,3 +39,6 @@ This repository holds the source code of BookMart application developed using dj
 
 
 
+### Swagger API documentation
+
+    http://127.0.0.1:8000/
