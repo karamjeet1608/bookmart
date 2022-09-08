@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import validate_email
 from django.contrib.auth.models import (
     AbstractBaseUser,
     BaseUserManager,
@@ -14,6 +15,7 @@ class UserManager(BaseUserManager):
         """creates and saves a new user"""
         if not email:
             raise ValueError(" user email address is missing")
+        validate_email(email)
         user = self.model(email=self.normalize_email(email), **extra_fields)
         user.set_password(password)
         user.save(using=self.db)
